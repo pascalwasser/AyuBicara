@@ -1,0 +1,337 @@
+[
+  {
+    "id": "session1",
+    "title": "Begrüßung",
+    "subtitle": "Grüßen und vorstellen",
+    "sentences": [
+      {
+        "id": 101,
+        "german": "Guten Morgen!",
+        "indonesian": "Selamat pagi!",
+        "wordBank": ["Selamat", "pagi!", "malam!", "siang!"]
+      },
+      {
+        "id": 102,
+        "german": "Guten Abend!",
+        "indonesian": "Selamat malam!",
+        "wordBank": ["malam!", "Selamat", "pagi!", "tidur"]
+      },
+      {
+        "id": 103,
+        "german": "Wie geht es dir?",
+        "indonesian": "Apa kabar?",
+        "wordBank": ["kabar?", "Apa", "nama?", "dimana?"]
+      },
+      {
+        "id": 104,
+        "german": "Mir geht es gut.",
+        "indonesian": "Aku baik-baik saja.",
+        "wordBank": ["baik-baik", "saja.", "Aku", "lelah", "lapar"]
+      },
+      {
+        "id": 105,
+        "german": "Wie heißt du?",
+        "indonesian": "Siapa namamu?",
+        "wordBank": ["namamu?", "Siapa", "dimana", "kapan"]
+      },
+      {
+        "id": 106,
+        "german": "Ich heiße Anna.",
+        "indonesian": "Namaku Anna.",
+        "wordBank": ["Anna.", "Namaku", "Kamu", "Dia"]
+      },
+      {
+        "id": 107,
+        "german": "Woher kommst du?",
+        "indonesian": "Kamu dari mana?",
+        "wordBank": ["mana?", "dari", "Kamu", "Aku", "pergi"]
+      },
+      {
+        "id": 108,
+        "german": "Ich komme aus Deutschland.",
+        "indonesian": "Aku dari Jerman.",
+        "wordBank": ["Jerman.", "dari", "Aku", "Kamu", "ke"]
+      },
+      {
+        "id": 109,
+        "german": "Schön, dich kennenzulernen!",
+        "indonesian": "Senang berkenalan denganmu!",
+        "wordBank": ["berkenalan", "denganmu!", "Senang", "bertemu", "kamu"]
+      },
+      {
+        "id": 110,
+        "german": "Auf Wiedersehen!",
+        "indonesian": "Sampai jumpa!",
+        "wordBank": ["jumpa!", "Sampai", "besok!", "nanti"]
+      }
+    ]
+  },
+  {
+    "id": "session2",
+    "title": "Essen & Trinken",
+    "subtitle": "Über Essen reden",
+    "sentences": [
+      {
+        "id": 201,
+        "german": "Ich bin hungrig.",
+        "indonesian": "Aku lapar.",
+        "wordBank": ["lapar.", "Aku", "kenyang.", "haus.", "lelah."]
+      },
+      {
+        "id": 202,
+        "german": "Ich möchte Wasser trinken.",
+        "indonesian": "Aku mau minum air.",
+        "wordBank": ["air.", "minum", "mau", "Aku", "makan", "kopi."]
+      },
+      {
+        "id": 203,
+        "german": "Das ist lecker!",
+        "indonesian": "Ini enak!",
+        "wordBank": ["enak!", "Ini", "mahal!", "murah!", "bagus!"]
+      },
+      {
+        "id": 204,
+        "german": "Ich esse Reis.",
+        "indonesian": "Aku makan nasi.",
+        "wordBank": ["nasi.", "makan", "Aku", "minum", "roti."]
+      },
+      {
+        "id": 205,
+        "german": "Ich trinke Kaffee.",
+        "indonesian": "Aku minum kopi.",
+        "wordBank": ["kopi.", "minum", "Aku", "makan", "air."]
+      },
+      {
+        "id": 206,
+        "german": "Ich mag Früchte.",
+        "indonesian": "Aku suka buah.",
+        "wordBank": ["buah.", "suka", "Aku", "benci", "sayur."]
+      },
+      {
+        "id": 207,
+        "german": "Kannst du kochen?",
+        "indonesian": "Kamu bisa masak?",
+        "wordBank": ["masak?", "bisa", "Kamu", "Aku", "makan?"]
+      },
+      {
+        "id": 208,
+        "german": "Ich bin satt.",
+        "indonesian": "Aku sudah kenyang.",
+        "wordBank": ["kenyang.", "sudah", "Aku", "lapar.", "makan"]
+      },
+      {
+        "id": 209,
+        "german": "Was möchtest du essen?",
+        "indonesian": "Kamu mau makan apa?",
+        "wordBank": ["apa?", "makan", "mau", "Kamu", "Aku", "minum"]
+      },
+      {
+        "id": 210,
+        "german": "Das Essen ist sehr gut.",
+        "indonesian": "Makanannya sangat enak.",
+        "wordBank": ["enak.", "sangat", "Makanannya", "lezat.", "biasa."]
+      }
+    ]
+  },
+  {
+    "id": "session3",
+    "title": "Gefühle",
+    "subtitle": "Gefühle ausdrücken",
+    "sentences": [
+      {
+        "id": 301,
+        "german": "Ich bin müde.",
+        "indonesian": "Aku lelah.",
+        "wordBank": ["lelah.", "Aku", "lapar.", "senang.", "sedih."]
+      },
+      {
+        "id": 302,
+        "german": "Ich bin glücklich.",
+        "indonesian": "Aku senang.",
+        "wordBank": ["senang.", "Aku", "sedih.", "lelah.", "marah."]
+      },
+      {
+        "id": 303,
+        "german": "Ich bin traurig.",
+        "indonesian": "Aku sedih.",
+        "wordBank": ["sedih.", "Aku", "senang.", "marah.", "takut."]
+      },
+      {
+        "id": 304,
+        "german": "Ich liebe dich.",
+        "indonesian": "Aku cinta kamu.",
+        "wordBank": ["kamu.", "cinta", "Aku", "suka", "sayang"]
+      },
+      {
+        "id": 305,
+        "german": "Ich vermisse dich.",
+        "indonesian": "Aku kangen kamu.",
+        "wordBank": ["kamu.", "kangen", "Aku", "rindu", "cinta"]
+      },
+      {
+        "id": 306,
+        "german": "Ich bin wütend.",
+        "indonesian": "Aku marah.",
+        "wordBank": ["marah.", "Aku", "sedih.", "senang.", "takut."]
+      },
+      {
+        "id": 307,
+        "german": "Ich habe Angst.",
+        "indonesian": "Aku takut.",
+        "wordBank": ["takut.", "Aku", "berani.", "senang.", "marah."]
+      },
+      {
+        "id": 308,
+        "german": "Du bist schön.",
+        "indonesian": "Kamu cantik.",
+        "wordBank": ["cantik.", "Kamu", "Aku", "ganteng.", "baik."]
+      },
+      {
+        "id": 309,
+        "german": "Ich freue mich sehr.",
+        "indonesian": "Aku sangat senang.",
+        "wordBank": ["senang.", "sangat", "Aku", "sedih.", "lelah."]
+      },
+      {
+        "id": 310,
+        "german": "Bist du okay?",
+        "indonesian": "Kamu baik-baik saja?",
+        "wordBank": ["baik-baik", "saja?", "Kamu", "Aku", "kenapa?"]
+      }
+    ]
+  },
+  {
+    "id": "session4",
+    "title": "Unterwegs",
+    "subtitle": "Sich zurechtfinden",
+    "sentences": [
+      {
+        "id": 401,
+        "german": "Wo ist die Toilette?",
+        "indonesian": "Di mana toiletnya?",
+        "wordBank": ["toiletnya?", "mana", "Di", "ada", "kamarnya?"]
+      },
+      {
+        "id": 402,
+        "german": "Geradeaus gehen.",
+        "indonesian": "Jalan lurus.",
+        "wordBank": ["lurus.", "Jalan", "kiri.", "kanan.", "belok."]
+      },
+      {
+        "id": 403,
+        "german": "Links abbiegen.",
+        "indonesian": "Belok kiri.",
+        "wordBank": ["kiri.", "Belok", "kanan.", "lurus.", "jalan."]
+      },
+      {
+        "id": 404,
+        "german": "Rechts abbiegen.",
+        "indonesian": "Belok kanan.",
+        "wordBank": ["kanan.", "Belok", "kiri.", "lurus.", "balik."]
+      },
+      {
+        "id": 405,
+        "german": "Das ist weit.",
+        "indonesian": "Itu jauh.",
+        "wordBank": ["jauh.", "Itu", "dekat.", "sini.", "sana."]
+      },
+      {
+        "id": 406,
+        "german": "Das ist nah.",
+        "indonesian": "Itu dekat.",
+        "wordBank": ["dekat.", "Itu", "jauh.", "sini.", "sana."]
+      },
+      {
+        "id": 407,
+        "german": "Ich bin verloren.",
+        "indonesian": "Aku tersesat.",
+        "wordBank": ["tersesat.", "Aku", "hilang.", "capek.", "bingung."]
+      },
+      {
+        "id": 408,
+        "german": "Kannst du mir helfen?",
+        "indonesian": "Bisa kamu bantu aku?",
+        "wordBank": ["aku?", "bantu", "kamu", "Bisa", "tolong", "pergi?"]
+      },
+      {
+        "id": 409,
+        "german": "Ich suche das Hotel.",
+        "indonesian": "Aku mencari hotel.",
+        "wordBank": ["hotel.", "mencari", "Aku", "restoran.", "stasiun."]
+      },
+      {
+        "id": 410,
+        "german": "Wie weit ist es?",
+        "indonesian": "Berapa jauh?",
+        "wordBank": ["jauh?", "Berapa", "dekat?", "lama?", "besar?"]
+      }
+    ]
+  },
+  {
+    "id": "session5",
+    "title": "Einkaufen",
+    "subtitle": "Auf dem Markt",
+    "sentences": [
+      {
+        "id": 501,
+        "german": "Wie viel kostet das?",
+        "indonesian": "Ini harganya berapa?",
+        "wordBank": ["berapa?", "harganya", "Ini", "dimana", "kapan"]
+      },
+      {
+        "id": 502,
+        "german": "Das ist teuer.",
+        "indonesian": "Ini mahal.",
+        "wordBank": ["mahal.", "Ini", "murah.", "bagus.", "jelek."]
+      },
+      {
+        "id": 503,
+        "german": "Das ist günstig.",
+        "indonesian": "Ini murah.",
+        "wordBank": ["murah.", "Ini", "mahal.", "bagus.", "biasa."]
+      },
+      {
+        "id": 504,
+        "german": "Ich möchte das kaufen.",
+        "indonesian": "Aku mau beli ini.",
+        "wordBank": ["ini.", "beli", "mau", "Aku", "jual", "itu."]
+      },
+      {
+        "id": 505,
+        "german": "Ich schaue nur.",
+        "indonesian": "Aku lihat-lihat dulu.",
+        "wordBank": ["dulu.", "lihat-lihat", "Aku", "beli", "pergi."]
+      },
+      {
+        "id": 506,
+        "german": "Wo ist der Markt?",
+        "indonesian": "Di mana pasarnya?",
+        "wordBank": ["pasarnya?", "mana", "Di", "tokonya?", "hotelnya?"]
+      },
+      {
+        "id": 507,
+        "german": "Kann ich bezahlen?",
+        "indonesian": "Boleh aku bayar?",
+        "wordBank": ["bayar?", "aku", "Boleh", "pergi?", "makan?"]
+      },
+      {
+        "id": 508,
+        "german": "Haben Sie Wechselgeld?",
+        "indonesian": "Ada kembaliannya?",
+        "wordBank": ["kembaliannya?", "Ada", "harganya?", "diskonnya?"]
+      },
+      {
+        "id": 509,
+        "german": "Das nehme ich.",
+        "indonesian": "Aku ambil ini.",
+        "wordBank": ["ini.", "ambil", "Aku", "itu.", "beli"]
+      },
+      {
+        "id": 510,
+        "german": "Darf ich das ausprobieren?",
+        "indonesian": "Boleh aku coba?",
+        "wordBank": ["coba?", "aku", "Boleh", "beli?", "lihat?"]
+      }
+    ]
+  }
+]
