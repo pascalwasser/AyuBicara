@@ -19,6 +19,10 @@ const light = {
   accent: '#3b82f6',
   progressBg: '#e5e7eb',
   footerShadow: '#000',
+  bubbleA: '#dbeafe',
+  bubbleABorder: '#93c5fd',
+  bubbleALabel: '#3b82f6',
+  bubbleAText: '#111827',
 };
 
 const dark = {
@@ -40,6 +44,10 @@ const dark = {
   accent: '#3b82f6',
   progressBg: '#374151',
   footerShadow: '#000',
+  bubbleA: '#1e3a5f',
+  bubbleABorder: '#2563eb',
+  bubbleALabel: '#60a5fa',
+  bubbleAText: '#f9fafb',
 };
 
 export function useColors() {

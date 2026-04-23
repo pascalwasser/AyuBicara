@@ -1,0 +1,146 @@
+{
+  "tiers": [
+    {
+      "id": "tier1",
+      "label": "Stufe 1",
+      "description": "Die 20 wichtigsten Wörter",
+      "topics": [
+        {
+          "id": "t1_di_restoran",
+          "title": "Di restoran",
+          "targetWordIds": ["mau", "makan", "ada", "gak", "terima_kasih", "apa", "ini"],
+          "story": [
+            { "type": "dialogue", "speaker": "A", "indonesian": "Aku mau makan.", "german": "Ich will essen." },
+            { "type": "dialogue", "speaker": "B", "indonesian": "Mau makan apa?", "german": "Was willst du essen?" },
+            { "type": "dialogue", "speaker": "A", "indonesian": "Mau makan apel.", "german": "Ich will einen Apfel essen." },
+            { "type": "dialogue", "speaker": "B", "indonesian": "Gak ada.", "german": "Haben wir nicht." },
+            { "type": "dialogue", "speaker": "A", "indonesian": "Mau makan wortel.", "german": "Ich will Karotten essen." },
+            { "type": "dialogue", "speaker": "B", "indonesian": "Gak ada.", "german": "Haben wir nicht." },
+            { "type": "dialogue", "speaker": "A", "indonesian": "Ada apa?", "german": "Was gibt es dann?" },
+            { "type": "dialogue", "speaker": "B", "indonesian": "Ada nasi goreng.", "german": "Wir haben Nasi Goreng." },
+            { "type": "dialogue", "speaker": "A", "indonesian": "Ok, aku mau nasi goreng.", "german": "Ok, ich möchte Nasi Goreng." },
+            { "type": "dialogue", "speaker": "B", "indonesian": "Pake cabe?", "german": "Mit Chili?" },
+            { "type": "dialogue", "speaker": "A", "indonesian": "Eh...", "german": "Äh..." },
+            { "type": "dialogue", "speaker": "B", "indonesian": "Pake cabe??", "german": "Mit Chili??" },
+            { "type": "dialogue", "speaker": "A", "indonesian": "Eh... ya.", "german": "Äh... ja." },
+            { "type": "narration", "indonesian": "Beberapa menit kemudian...", "german": "Einige Minuten später..." },
+            { "type": "dialogue", "speaker": "B", "indonesian": "Ini makanannya.", "german": "Hier ist dein Essen." },
+            { "type": "dialogue", "speaker": "A", "indonesian": "Terima kasih.", "german": "Danke." },
+            { "type": "narration", "indonesian": "Aku makan.", "german": "Ich esse." },
+            { "type": "emoji", "content": "🌶️😅🔥" }
+          ],
+          "exercises": [
+            {
+              "id": "t1_r_ex1",
+              "sentences": [
+                { "id": "t1_r_1_1", "german": "Ich will essen.", "indonesian": "Aku mau makan.", "wordBank": ["Aku", "mau", "makan.", "minum.", "kamu"] },
+                { "id": "t1_r_1_2", "german": "Was willst du essen?", "indonesian": "Mau makan apa?", "wordBank": ["Mau", "makan", "apa?", "minum", "Ada"] },
+                { "id": "t1_r_1_3", "german": "Haben wir nicht.", "indonesian": "Gak ada.", "wordBank": ["Gak", "ada.", "mau", "Ya.", "aku"] },
+                { "id": "t1_r_1_4", "german": "Was gibt es?", "indonesian": "Ada apa?", "wordBank": ["Ada", "apa?", "Gak", "mau", "makan"] },
+                { "id": "t1_r_1_5", "german": "Es gibt Nasi Goreng.", "indonesian": "Ada nasi goreng.", "wordBank": ["Ada", "nasi", "goreng.", "apa?", "Gak"] },
+                { "id": "t1_r_1_6", "german": "Ich möchte Nasi Goreng.", "indonesian": "Aku mau nasi goreng.", "wordBank": ["Aku", "mau", "nasi", "goreng.", "makan.", "kamu"] }
+              ]
+            },
+            {
+              "id": "t1_r_ex2",
+              "sentences": [
+                { "id": "t1_r_2_1", "german": "Mit Chili?", "indonesian": "Pake cabe?", "wordBank": ["Pake", "cabe?", "nasi", "goreng?", "Ada"] },
+                { "id": "t1_r_2_2", "german": "Ja.", "indonesian": "Ya.", "wordBank": ["Ya.", "Gak.", "Pake", "ada"] },
+                { "id": "t1_r_2_3", "german": "Hier ist dein Essen.", "indonesian": "Ini makanannya.", "wordBank": ["Ini", "makanannya.", "nasi", "goreng.", "Ada"] },
+                { "id": "t1_r_2_4", "german": "Danke.", "indonesian": "Terima kasih.", "wordBank": ["Terima", "kasih.", "Ada", "Gak.", "makan"] },
+                { "id": "t1_r_2_5", "german": "Ich esse.", "indonesian": "Aku makan.", "wordBank": ["Aku", "makan.", "minum.", "mau", "kamu"] },
+                { "id": "t1_r_2_6", "german": "Ich will nicht essen.", "indonesian": "Aku gak mau makan.", "wordBank": ["Aku", "gak", "mau", "makan.", "minum.", "kamu"] }
+              ]
+            },
+            {
+              "id": "t1_r_ex3",
+              "sentences": [
+                { "id": "t1_r_3_1", "german": "Ich will trinken.", "indonesian": "Aku mau minum.", "wordBank": ["Aku", "mau", "minum.", "makan.", "kamu"] },
+                { "id": "t1_r_3_2", "german": "Was willst du trinken?", "indonesian": "Mau minum apa?", "wordBank": ["Mau", "minum", "apa?", "makan", "Ada"] },
+                { "id": "t1_r_3_3", "german": "Es gibt Apfel.", "indonesian": "Ada apel.", "wordBank": ["Ada", "apel.", "wortel.", "nasi", "goreng."] },
+                { "id": "t1_r_3_4", "german": "Ohne Chili.", "indonesian": "Gak pake cabe.", "wordBank": ["Gak", "pake", "cabe.", "mau", "ada", "nasi"] },
+                { "id": "t1_r_3_5", "german": "Das Essen ist hier.", "indonesian": "Ini makanannya.", "wordBank": ["Ini", "makanannya.", "Ada", "mau", "goreng."] },
+                { "id": "t1_r_3_6", "german": "Danke, das ist lecker!", "indonesian": "Terima kasih, enak!", "wordBank": ["Terima", "kasih,", "enak!", "makan!", "Ya."] },
+                { "id": "t1_r_3_7", "german": "Was gibt es?", "indonesian": "Ada apa?", "wordBank": ["Ada", "apa?", "Gak", "Ini", "mau"] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "t1_halo",
+          "title": "Halo!",
+          "targetWordIds": ["halo", "aku", "kamu", "ya", "terima_kasih"],
+          "story": [
+            { "type": "dialogue", "speaker": "A", "indonesian": "Halo!", "german": "Hallo!" },
+            { "type": "dialogue", "speaker": "B", "indonesian": "Halo!", "german": "Hallo!" },
+            { "type": "dialogue", "speaker": "A", "indonesian": "Siapa namamu?", "german": "Wie heißt du?" },
+            { "type": "dialogue", "speaker": "B", "indonesian": "Namaku Ayu. Kamu siapa?", "german": "Ich heiße Ayu. Und du?" },
+            { "type": "dialogue", "speaker": "A", "indonesian": "Aku Budi.", "german": "Ich bin Budi." },
+            { "type": "dialogue", "speaker": "B", "indonesian": "Senang bertemu kamu, Budi!", "german": "Schön, dich kennenzulernen, Budi!" },
+            { "type": "dialogue", "speaker": "A", "indonesian": "Senang bertemu kamu juga, Ayu!", "german": "Schön, dich auch kennenzulernen, Ayu!" },
+            { "type": "emoji", "content": "😊" }
+          ],
+          "exercises": [
+            {
+              "id": "t1_h_ex1",
+              "sentences": [
+                { "id": "t1_h_1_1", "german": "Hallo!", "indonesian": "Halo!", "wordBank": ["Halo!", "Ya.", "Gak."] },
+                { "id": "t1_h_1_2", "german": "Wie heißt du?", "indonesian": "Siapa namamu?", "wordBank": ["Siapa", "namamu?", "kamu?", "Halo,", "aku"] },
+                { "id": "t1_h_1_3", "german": "Ich bin Budi.", "indonesian": "Aku Budi.", "wordBank": ["Aku", "Budi.", "Kamu", "Halo"] },
+                { "id": "t1_h_1_4", "german": "Ich heiße Ayu.", "indonesian": "Namaku Ayu.", "wordBank": ["Namaku", "Ayu.", "Budi.", "Kamu", "Siapa"] },
+                { "id": "t1_h_1_5", "german": "Und du?", "indonesian": "Kamu siapa?", "wordBank": ["Kamu", "siapa?", "namamu?", "Aku", "Halo"] },
+                { "id": "t1_h_1_6", "german": "Schön, dich kennenzulernen!", "indonesian": "Senang bertemu kamu!", "wordBank": ["Senang", "bertemu", "kamu!", "Halo!", "namamu?"] }
+              ]
+            },
+            {
+              "id": "t1_h_ex2",
+              "sentences": [
+                { "id": "t1_h_2_1", "german": "Hallo, ich bin Ayu.", "indonesian": "Halo, aku Ayu.", "wordBank": ["Halo,", "aku", "Ayu.", "Budi.", "kamu"] },
+                { "id": "t1_h_2_2", "german": "Ich heiße Budi.", "indonesian": "Namaku Budi.", "wordBank": ["Namaku", "Budi.", "Ayu.", "Kamu", "Aku"] },
+                { "id": "t1_h_2_3", "german": "Wer bist du?", "indonesian": "Kamu siapa?", "wordBank": ["Kamu", "siapa?", "namamu?", "Aku", "Halo"] },
+                { "id": "t1_h_2_4", "german": "Schön, dich kennenzulernen, Ayu!", "indonesian": "Senang bertemu kamu, Ayu!", "wordBank": ["Senang", "bertemu", "kamu,", "Ayu!", "Budi!", "namamu?"] },
+                { "id": "t1_h_2_5", "german": "Hallo! Ich bin Budi.", "indonesian": "Halo! Aku Budi.", "wordBank": ["Halo!", "Aku", "Budi.", "Ayu.", "kamu", "Senang"] },
+                { "id": "t1_h_2_6", "german": "Wie heißt du?", "indonesian": "Siapa namamu?", "wordBank": ["Siapa", "namamu?", "kamu?", "bertemu", "Halo"] }
+              ]
+            },
+            {
+              "id": "t1_h_ex3",
+              "sentences": [
+                { "id": "t1_h_3_1", "german": "Ich bin Ayu.", "indonesian": "Aku Ayu.", "wordBank": ["Aku", "Ayu.", "Budi.", "Kamu", "Halo"] },
+                { "id": "t1_h_3_2", "german": "Mein Name ist Budi.", "indonesian": "Namaku Budi.", "wordBank": ["Namaku", "Budi.", "Ayu.", "aku", "Siapa"] },
+                { "id": "t1_h_3_3", "german": "Und du, wer bist du?", "indonesian": "Kamu siapa?", "wordBank": ["Kamu", "siapa?", "namamu?", "Aku", "Senang"] },
+                { "id": "t1_h_3_4", "german": "Schön, dich auch kennenzulernen!", "indonesian": "Senang bertemu kamu juga!", "wordBank": ["Senang", "bertemu", "kamu", "juga!", "Halo!", "aku"] },
+                { "id": "t1_h_3_5", "german": "Hallo, schön dich zu treffen!", "indonesian": "Halo, senang bertemu kamu!", "wordBank": ["Halo,", "senang", "bertemu", "kamu!", "Aku", "namamu?"] },
+                { "id": "t1_h_3_6", "german": "Danke!", "indonesian": "Terima kasih!", "wordBank": ["Terima", "kasih!", "Halo!", "Ya.", "Senang"] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tier2",
+      "label": "Stufe 2",
+      "description": "Wörter 21–50",
+      "topics": []
+    },
+    {
+      "id": "tier3",
+      "label": "Stufe 3",
+      "description": "Wörter 51–100",
+      "topics": []
+    },
+    {
+      "id": "tier4",
+      "label": "Stufe 4",
+      "description": "Wörter 101–200",
+      "topics": []
+    },
+    {
+      "id": "tier5",
+      "label": "Stufe 5",
+      "description": "Wörter 201–500",
+      "topics": []
+    }
+  ]
+}

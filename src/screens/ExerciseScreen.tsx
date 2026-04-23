@@ -3,7 +3,7 @@ import { View, Text, ScrollView, TouchableOpacity, StyleSheet } from 'react-nati
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { useSessionStore } from '../store/useSessionStore';
+import { useCurriculumStore } from '../store/useCurriculumStore';
 import WordTile from '../components/WordTile';
 import { useColors } from '../theme';
 import { RootStackParamList } from '../types';
@@ -14,7 +14,7 @@ type Route = RouteProp<RootStackParamList, 'Exercise'>;
 export default function ExerciseScreen() {
   const navigation = useNavigation<Nav>();
   const route = useRoute<Route>();
-  const store = useSessionStore();
+  const store = useCurriculumStore();
   const colors = useColors();
   const insets = useSafeAreaInsets();
 
@@ -58,11 +58,11 @@ export default function ExerciseScreen() {
   }
 
   function handleNext() {
-    const { currentSession, currentIndex, score } = store;
-    const total = currentSession!.sentences.length;
-    if (currentIndex + 1 >= total) {
+    const total = store.currentExerciseSet!.sentences.length;
+    if (store.currentIndex + 1 >= total) {
       navigation.replace('Result', {
-        sessionId: route.params.sessionId,
+        topicId: route.params.topicId,
+        exerciseSetId: route.params.exerciseSetId,
         score: store.score,
         total,
       });
